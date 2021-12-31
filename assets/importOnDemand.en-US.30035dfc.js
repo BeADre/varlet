@@ -4,11 +4,16 @@ import{_ as t}from"./elevation.111980a5.js";import{e as o,o as c,c as p,a as s,i
 
 createApp().use(Button)
 `)])],-1),g={class:"card"},f=s("h3",null,"Auto Import",-1),v=s("p",null,[n("All components declared in the template are automatically scanned by the plug-in. The "),s("a",{href:"https://github.com/antfu/unplugin-vue-components"},"unplugin-vue-components"),n(" will automatically import "),s("code",null,"component logic"),n(" and "),s("code",null,"style files"),n(" and "),s("code",null,"use components")],-1),y=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-meta"},"#"),s("span",{class:"bash"}," Install plugin"),n(`
-`),s("span",{class:"hljs-meta"},"#"),s("span",{class:"bash"}," npm"),n(`
-npm i babel-plugin-import -D 
-`),s("span",{class:"hljs-meta"},"#"),s("span",{class:"bash"}," yarn"),n(`
-yarn add babel-plugin-import -D
-`)])],-1),k=s("h4",null,"Vue Cli",-1),b=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-comment"},"// vue.config.js"),n(`
+`),s("span",{class:"hljs-meta"},`
+#`),s("span",{class:"bash"}," npm"),n(`
+npm i unplugin-vue-components -D 
+`),s("span",{class:"hljs-meta"},`
+#`),s("span",{class:"bash"}," yarn"),n(`
+yarn add unplugin-vue-components -D
+`),s("span",{class:"hljs-meta"},`
+#`),s("span",{class:"bash"}," pnpm"),n(`
+pnpm add unplugin-vue-components -D
+`)])],-1),k=s("h4",null,"Vue Cli",-1),w=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-comment"},"// vue.config.js"),n(`
 `),s("span",{class:"hljs-keyword"},"const"),n(" Components = "),s("span",{class:"hljs-built_in"},"require"),n("("),s("span",{class:"hljs-string"},"'unplugin-vue-components/webpack'"),n(`)
 `),s("span",{class:"hljs-keyword"},"const"),n(" { VarletUIResolver } = "),s("span",{class:"hljs-built_in"},"require"),n("("),s("span",{class:"hljs-string"},"'unplugin-vue-components/resolvers'"),n(`)
 
@@ -21,7 +26,7 @@ yarn add babel-plugin-import -D
     ]
   }
 }
-`)])],-1),w=s("h4",null,"Vite",-1),x=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-comment"},"// vite.config.js"),n(`
+`)])],-1),b=s("h4",null,"Vite",-1),x=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-comment"},"// vite.config.js"),n(`
 `),s("span",{class:"hljs-keyword"},"import"),n(" vue "),s("span",{class:"hljs-keyword"},"from"),n(),s("span",{class:"hljs-string"},"'@vitejs/plugin-vue'"),n(`
 `),s("span",{class:"hljs-keyword"},"import"),n(" components "),s("span",{class:"hljs-keyword"},"from"),n(),s("span",{class:"hljs-string"},"'unplugin-vue-components/vite'"),n(`
 `),s("span",{class:"hljs-keyword"},"import"),n(" { VarletUIResolver } "),s("span",{class:"hljs-keyword"},"from"),n(),s("span",{class:"hljs-string"},"'unplugin-vue-components/resolvers'"),n(`
@@ -38,4 +43,4 @@ yarn add babel-plugin-import -D
 `)])],-1),I=s("p",null,"After completing the configuration, you can use it as follows",-1),V=s("pre",{class:"hljs"},[s("code",null,[s("link",{rel:"stylesheet",href:"./highlight.css"}),s("span",{class:"hljs-tag"},[n("<"),s("span",{class:"hljs-name"},"template"),n(">")]),n(`
   `),s("span",{class:"hljs-tag"},[n("<"),s("span",{class:"hljs-name"},"var-button"),n(">")]),n("Default Button"),s("span",{class:"hljs-tag"},[n("</"),s("span",{class:"hljs-name"},"var-button"),n(">")]),n(`
 `),s("span",{class:"hljs-tag"},[n("</"),s("span",{class:"hljs-name"},"template"),n(">")]),n(`
-`)])],-1),C=s("p",null,[n("Special note: Function components called outside the template cannot be scanned by the plug-in, and styles still need to be introduced manually. For example, "),s("code",null,"Snackbar"),n(" is a functional component.")],-1);function B(A,D,U,R,$,N){const l=o("var-site-code-example");return c(),p("div",r,[h,u,s("div",d,[m,j,e(l,null,{default:a(()=>[_]),_:1})]),s("div",g,[f,v,e(l,null,{default:a(()=>[y]),_:1}),k,e(l,null,{default:a(()=>[b]),_:1}),w,e(l,null,{default:a(()=>[x]),_:1}),I,e(l,null,{default:a(()=>[V]),_:1}),C])])}var q=t(i,[["render",B]]);export{q as default};
+`)])],-1),C=s("p",null,[n("Special note: Function components called outside the template cannot be scanned by the plug-in, and styles still need to be introduced manually. For example, "),s("code",null,"Snackbar"),n(" is a functional component.")],-1);function B(D,A,U,R,$,N){const l=o("var-site-code-example");return c(),p("div",r,[h,u,s("div",d,[m,j,e(l,null,{default:a(()=>[_]),_:1})]),s("div",g,[f,v,e(l,null,{default:a(()=>[y]),_:1}),k,e(l,null,{default:a(()=>[w]),_:1}),b,e(l,null,{default:a(()=>[x]),_:1}),I,e(l,null,{default:a(()=>[V]),_:1}),C])])}var q=t(i,[["render",B]]);export{q as default};
