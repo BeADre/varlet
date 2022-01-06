@@ -23,7 +23,7 @@ pnpm dev
     `),t("span",{class:"hljs-attr"},"header"),s(`: {
       `),t("span",{class:"hljs-attr"},"darkMode"),s(": "),t("span",{class:"hljs-literal"},"null"),s(`,
       `),t("span",{class:"hljs-attr"},"i18n"),s(": "),t("span",{class:"hljs-literal"},"null"),s(`,
-      `),t("span",{class:"hljs-attr"},"github"),s(": "),t("span",{class:"hljs-string"},"'https://github.com/haoziqaq/varlet'"),s(`,
+      `),t("span",{class:"hljs-attr"},"github"),s(": "),t("span",{class:"hljs-string"},"'https://github.com/varletjs/varlet'"),s(`,
     },
     `),t("span",{class:"hljs-attr"},"menu"),s(`: [
       {
@@ -65,7 +65,7 @@ pnpm dev
     `),t("span",{class:"hljs-attr"},"header"),s(`: {
       `),t("span",{class:"hljs-attr"},"darkMode"),s(": "),t("span",{class:"hljs-literal"},"null"),s(`,
       `),t("span",{class:"hljs-attr"},"i18n"),s(": "),t("span",{class:"hljs-literal"},"null"),s(`,
-      `),t("span",{class:"hljs-attr"},"github"),s(": "),t("span",{class:"hljs-string"},"'https://github.com/haoziqaq/varlet'"),s(`,
+      `),t("span",{class:"hljs-attr"},"github"),s(": "),t("span",{class:"hljs-string"},"'https://github.com/varletjs/varlet'"),s(`,
     },
   },
 }
@@ -73,14 +73,14 @@ pnpm dev
 `)])],-1),U=t("h4",null,"Build documentation site",-1),I=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli build
 `)])],-1),P=t("h4",null,"Preview documentation site",-1),V=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli preview
 `)])],-1),A=t("h4",null,"Build component library code",-1),L=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli compile
-`)])],-1),O=t("h4",null,"Perform all unit tests",-1),z=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli test
-`)])],-1),E=t("h4",null,"Execute unit tests in watch mode",-1),q=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli test -w
+`)])],-1),O=t("h4",null,"Perform all unit tests",-1),E=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli test
+`)])],-1),F=t("h4",null,"Execute unit tests in watch mode",-1),$=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli test -w
 or
 varlet-cli test -wa
-`)])],-1),F=t("h4",null,"Lint code",-1),$=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli lint
-`)])],-1),G=t("h4",null,"Lint commit message",-1),R=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli commit-lint
-`)])],-1),H=t("h4",null,"Generate changelog",-1),Q=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli changelog
-`)])],-1),W=t("h4",null,"Release component library",-1),J=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli release
+`)])],-1),z=t("h4",null,"Lint code",-1),G=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli lint
+`)])],-1),R=t("h4",null,"Lint commit message",-1),H=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli commit-lint
+`)])],-1),Q=t("h4",null,"Generate changelog",-1),W=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli changelog
+`)])],-1),J=t("h4",null,"Release component library",-1),q=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli release
 `)])],-1),K=t("h4",null,"Quickly create a component folder",-1),X=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli create <componentName>
 `)])],-1),Y=t("h4",null,"Generate a project template",-1),Z=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`varlet-cli gen <projectName>
 `)])],-1),tt={class:"card"},st=t("h3",null,"babel",-1),et=t("p",null,[s("To configure "),t("code",null,"babel"),s(", first specify the target browser in "),t("code",null,"package.json")],-1),lt=t("pre",{class:"hljs"},[t("code",null,[t("link",{rel:"stylesheet",href:"./highlight.css"}),s(`{
@@ -158,4 +158,4 @@ src/*/__tests__/**
     `),t("span",{class:"hljs-attr"},'"jsx"'),s(": "),t("span",{class:"hljs-string"},'"preserve"'),s(`
   }
 }
-`)])],-1),gt=t("h4",null,"Note before release",-1),jt=t("ul",null,[t("li",null,"1.The registry of npm must set to the official npm mirror"),t("li",null,"2.The npm must execute the login command for user login")],-1);function _t(ft,bt,yt,vt,kt,xt){const e=c("var-site-code-example");return d(),r("div",h,[p,t("div",u,[m,g,l(e,null,{default:n(()=>[j]),_:1}),_]),f,t("div",b,[y,l(e,null,{default:n(()=>[v]),_:1}),k,l(e,null,{default:n(()=>[x]),_:1}),w,l(e,null,{default:n(()=>[S]),_:1}),T,l(e,null,{default:n(()=>[C]),_:1})]),t("div",D,[N,B,l(e,null,{default:n(()=>[M]),_:1}),U,l(e,null,{default:n(()=>[I]),_:1}),P,l(e,null,{default:n(()=>[V]),_:1}),A,l(e,null,{default:n(()=>[L]),_:1}),O,l(e,null,{default:n(()=>[z]),_:1}),E,l(e,null,{default:n(()=>[q]),_:1}),F,l(e,null,{default:n(()=>[$]),_:1}),G,l(e,null,{default:n(()=>[R]),_:1}),H,l(e,null,{default:n(()=>[Q]),_:1}),W,l(e,null,{default:n(()=>[J]),_:1}),K,l(e,null,{default:n(()=>[X]),_:1}),Y,l(e,null,{default:n(()=>[Z]),_:1})]),t("div",tt,[st,et,l(e,null,{default:n(()=>[lt]),_:1}),nt,l(e,null,{default:n(()=>[ot]),_:1})]),t("div",at,[ct,l(e,null,{default:n(()=>[dt]),_:1}),rt,l(e,null,{default:n(()=>[it]),_:1})]),t("div",ht,[pt,ut,l(e,null,{default:n(()=>[mt]),_:1}),gt,jt])])}var Tt=a(i,[["render",_t]]);export{Tt as default};
+`)])],-1),gt=t("h4",null,"Note before release",-1),jt=t("ul",null,[t("li",null,"1.The registry of npm must set to the official npm mirror"),t("li",null,"2.The npm must execute the login command for user login")],-1);function _t(ft,bt,yt,vt,kt,xt){const e=c("var-site-code-example");return d(),r("div",h,[p,t("div",u,[m,g,l(e,null,{default:n(()=>[j]),_:1}),_]),f,t("div",b,[y,l(e,null,{default:n(()=>[v]),_:1}),k,l(e,null,{default:n(()=>[x]),_:1}),w,l(e,null,{default:n(()=>[S]),_:1}),T,l(e,null,{default:n(()=>[C]),_:1})]),t("div",D,[N,B,l(e,null,{default:n(()=>[M]),_:1}),U,l(e,null,{default:n(()=>[I]),_:1}),P,l(e,null,{default:n(()=>[V]),_:1}),A,l(e,null,{default:n(()=>[L]),_:1}),O,l(e,null,{default:n(()=>[E]),_:1}),F,l(e,null,{default:n(()=>[$]),_:1}),z,l(e,null,{default:n(()=>[G]),_:1}),R,l(e,null,{default:n(()=>[H]),_:1}),Q,l(e,null,{default:n(()=>[W]),_:1}),J,l(e,null,{default:n(()=>[q]),_:1}),K,l(e,null,{default:n(()=>[X]),_:1}),Y,l(e,null,{default:n(()=>[Z]),_:1})]),t("div",tt,[st,et,l(e,null,{default:n(()=>[lt]),_:1}),nt,l(e,null,{default:n(()=>[ot]),_:1})]),t("div",at,[ct,l(e,null,{default:n(()=>[dt]),_:1}),rt,l(e,null,{default:n(()=>[it]),_:1})]),t("div",ht,[pt,ut,l(e,null,{default:n(()=>[mt]),_:1}),gt,jt])])}var Tt=a(i,[["render",_t]]);export{Tt as default};
