@@ -1,0 +1,1 @@
+import{c as e}from"./index.eb1d562b.js";import{r as a,E as x}from"./elevation.4b2b848a.js";function m(n,r){const t=a(e.zIndex);return x(n,o=>{o&&(e.zIndex+=r,t.value=e.zIndex)},{immediate:!0}),{zIndex:t}}export{m as u};
